@@ -10,6 +10,7 @@ public class MultiplesTest {
     // TODO: When you are ready to test task X,
     //  copy this file into the test folder.
 
+
     @Test
     public void testFifteen() {
         assertEquals(7,
@@ -25,6 +26,7 @@ public class MultiplesTest {
                 "Multiples.multiples(10, 3, 5) is incorrect, the values" +
                         " it should be counting are: 3, 5, 6, 9");
     }
+
 
     @Test
     public void testThousand() {
