@@ -8,6 +8,10 @@ public class Multiples {
         System.out.println("Multiples of 3: " + multiples(n, a, b));
     }
 
+    public static int multiples() {
+        return multiples(1000, 3, 5);
+    }
+
     public static int multiples(int n, int a, int b) {
         int multiplesOfThreeOrFive = 0;
 
